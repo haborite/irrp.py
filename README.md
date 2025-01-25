@@ -8,7 +8,7 @@ Raspberry piシリーズのGPIOから赤外線センサで受信したパター�
 より詳しい説明: https://muscula.aa0.netvolante.jp/posts/28
 
 # About
-**irrp.py(https://abyz.me.uk/rpi/pigpio/examples.html) is a commonly used script to record/transmit patterns received by the infrared sensor from the GPIO of the Raspberry pi series.
+irrp.py(https://abyz.me.uk/rpi/pigpio/examples.html) is a commonly used script to record/transmit patterns received by the infrared sensor from the GPIO of the Raspberry pi series.
 However, irrp.py has a limitation that it cannot send patterns longer than 600 entries, which prevents it from sending codes for Japanese air conditioners.
 This improved version of irrp.py uses code compression to support the transmission of such long infrared codes.
 More detailed description: https://muscula.aa0.netvolante.jp/posts/28
