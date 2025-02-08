@@ -5,7 +5,7 @@ Modified irrp.py for compression of long infrared codes.
 Raspberry piシリーズのGPIOから赤外線センサで受信したパターンを記録/送信するために[irrp.py](https://abyz.me.uk/rpi/pigpio/examples.html)というスクリプトが一般に使用されます。
 しかし、irrp.pyには600エントリーを超える長さのパターンを送信できないという制限があり、多くの日本メーカーのエアコン等のコードが送信できないという問題点がありました。
 この改良版irrp.pyは、コードの圧縮を用いて、そのような長い赤外線コードの送信に対応したものです。
-より詳しい説明: https://muscula.aa0.netvolante.jp/posts/28
+より詳しい説明: [https://muscula.aa0.netvolante.jp/posts/28](https://blog.haborite.com/posts/28)
 
 # About
 [irrp.py](https://abyz.me.uk/rpi/pigpio/examples.html) is a commonly used script to record/transmit patterns received by the infrared sensor from the GPIO of the Raspberry pi series.
